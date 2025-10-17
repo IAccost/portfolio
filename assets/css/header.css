@@ -24,6 +24,7 @@
     border-radius: 50%;
 }
 
+#profile-name,
 .header .title {
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
