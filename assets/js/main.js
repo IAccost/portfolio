@@ -15,7 +15,7 @@ function updateProfileInfo(profileData) {
     email.textContent = profileData.email;
     email.href = "mailto:" + profileData.email;
     const linkedin = document.getElementById('profile-linkedin');
-    linkedin.textContent = profileData.linkedin.username;
+    linkedin.textContent = `LinkedIn/${profileData.linkedin.username}`;
     linkedin.href = profileData.linkedin.url;
 }
 
