@@ -37,7 +37,7 @@ function updateLanguages(profileData) {
 
 function updatePortfolioProjects(profileData) {
     const projects = document.getElementById('profile-portfolio-projects');
-    projects.innerHTML = profileData.portfolio.map(project => `<li><h3 class="title ${project.github ? 'github' : ''}">${project.name}</h3><a href="${project.url}" target="_blank">Link do Projeto</a></li>`).join('');
+    projects.innerHTML = profileData.portfolio.map(project => `<li><h3 class="title ${project.github ? 'github' : ''}">${project.name}</h3><a href="${project.url}" target="_blank">${project.github ? 'Ver no GitHub' : 'Ver Projeto'}</a></li>`).join('');
 }
 
 function updateExperience(profileData) {

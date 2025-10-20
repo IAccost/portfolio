@@ -1,17 +1,32 @@
 .skills{
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .skills .tools ul{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
     list-style: none;
+    gap: 0.5rem;
+    max-width: 70%;
+    margin: auto;
+
+}
+
+
+.skills .tools ul li {
+    display: flex;
+    flex: 0 1 30%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 .skills h3{
@@ -22,19 +37,25 @@
     max-height: 50px;
     margin: 0.5rem;
 }
+.skills .personal{
+    border-left: 1px solid white;
+}
 
 .skills .personal ul{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
 }
 .skills .personal ul li{
-    margin-left: 2rem;
+    margin-left: 4rem;
     padding: .5rem;
+    flex: 1 1 33%;
+    text-align: start;
+
 }
 
 @media only screen and (min-width: 768px) {

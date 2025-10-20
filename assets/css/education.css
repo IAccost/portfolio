@@ -51,7 +51,7 @@
 }
 
 .education .certifications li:hover{
-    border: 2px solid #34369b;
+    background-color: #34369b;
     border-radius: 0.5rem;
 }
 .education .certifications li:active{

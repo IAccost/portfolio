@@ -1,5 +1,5 @@
 {
-  "name": "Alexandre C Costa",
+  "name": "Alexandre C. Costa",
   "photo": "https://avatars.githubusercontent.com/u/190417502?v=4",
   "job": "Desenvolvedor JR.",
   "location": "Rio de Janeiro, Brasil",
@@ -107,7 +107,19 @@
   "courses": [
     {
       "institution": "Universidade do Estado do Rio de Janeiro - UERJ",
-      "description": "C++, C, Python, Atualmente Cursando"
+      "description": "C++, C, Python, Github, Atualmente Cursando"
+    },
+    {
+      "institution": "Dio | Digital Innovation One",
+      "description": "Node.js, JavaScript, HTML5"
+    },
+    {
+      "institution": "Udemy | Plataforma de Cursos Online",
+      "description": "Java"
+    },
+    {
+      "institution": "Cisco Networking Academy",
+      "description": "Segurança Cibernética, Redes de Computadores, Python"
     },
     {
       "institution": "Instituto FLAMA",

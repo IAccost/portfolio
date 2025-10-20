@@ -38,6 +38,7 @@
 }
 .information p{
     display: flex;
+    word-break: break-all;
     flex-direction: row;
     align-items: center;
     margin: 0.5rem;
