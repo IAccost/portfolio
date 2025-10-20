@@ -14,6 +14,9 @@ function updateProfileInfo(profileData) {
     const email = document.getElementById('profile-email');
     email.textContent = profileData.email;
     email.href = "mailto:" + profileData.email;
+    const linkedin = document.getElementById('profile-linkedin');
+    linkedin.textContent = profileData.linkedin.username;
+    linkedin.href = profileData.linkedin.url;
 }
 
 function updateHardSkills(profileData) {
@@ -49,6 +52,18 @@ function updateExperience(profileData) {
                     </li>`).join('');
 }
 
+function updateCertifications(profileData) {
+    const certifications_dio = document.getElementById('profile-certifications-dio');
+    certifications_dio.innerHTML = profileData.certifications.filter(cert => cert.type === 'dio').map(cert => `<li><a href="${cert.url}" target="_blank"><img src="${cert.logo}" alt="${cert.name}"></a></li>`).join('');
+    const certifications_others = document.getElementById('profile-certifications-others');
+    certifications_others.innerHTML = profileData.certifications.filter(cert => cert.type === 'other').map(cert => `<li><a href="${cert.url}" target="_blank"><img src="${cert.logo}" alt="${cert.name}"></a></li>`).join('');
+}
+
+function updateCourses(profileData) {
+    const courses = document.getElementById('profile-courses');
+    courses.innerHTML = profileData.courses.map(course => `<li><h3 class="title">${course.institution}</h3><p class="description">${course.description}</p></li>`).join('');
+}
+
 (async () => {
     const profileData = await fetchProfileData();
     updateProfileInfo(profileData);
@@ -57,5 +72,7 @@ function updateExperience(profileData) {
     updateLanguages(profileData);
     updatePortfolioProjects(profileData);
     updateExperience(profileData);
+    updateCertifications(profileData);
+    updateCourses(profileData);
     console.log(profileData);
 })();

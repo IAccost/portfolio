@@ -1,0 +1,78 @@
+.education{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.education h3{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.education li .title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.education .certifications{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+.education .certifications li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.education .certifications li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.education .certifications li:hover{
+    border: 2px solid #34369b;
+    border-radius: 0.5rem;
+}
+.education .certifications li:active{
+    background-color: #34369b;
+    transform: scale(0.95);
+    box-shadow: inset 0 0 5px #000000;
+}
+
+.education .certifications li img{
+    max-width: auto;
+    max-height: 60px;
+}
+
+.education .courses{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: start;
+    padding: 0;
+    margin: 1rem 0;
+}
+.education .courses li{
+    margin-bottom: 1rem;
+}

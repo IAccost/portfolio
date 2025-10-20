@@ -5,6 +5,10 @@
   "location": "Rio de Janeiro, Brasil",
   "phone": "+55 (21) 99999-9999",
   "email": "ex@gmail.com",
+  "linkedin": {
+    "username": "exemplo",
+    "url": "https://www.linkedin.com/in/exemplo"
+  },
   "skills": {
     "hardSkills": [
       {
@@ -45,6 +49,58 @@
     "Inglês (Avançado)",
     "Espanhol (Básica)",
     "Japonês (N4)"
+  ],
+  "certifications": [
+    {
+      "name": "CSS3 - Digital Innovation One",
+      "url": "https://www.dio.me/certificate/C0N0G1EB/share",
+      "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/css3.png",
+      "type": "dio"
+    },
+    {
+      "name": "JavaScript - Digital Innovation One",
+      "url": "https://www.dio.me/certificate/C0N0G1EB/share",
+      "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/javascript.png",
+      "type": "dio"
+    },
+    {
+      "name": "React - Digital Innovation One",
+      "url": "https://www.dio.me/certificate/C0N0G1EB/share",
+      "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/react.png",
+      "type": "dio"
+    },
+    {
+      "name": "HTML5 - Digital Innovation One",
+      "url": "https://www.dio.me/certificate/C0N0G1EB/share",
+      "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/html5.png",
+      "type": "other"
+    },
+    {
+      "name": "HTML5 - Digital Innovation One",
+      "url": "https://www.dio.me/certificate/C0N0G1EB/share",
+      "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/html5.png",
+      "type": "other"
+    },
+    {
+      "name": "HTML5 - Digital Innovation One",
+      "url": "https://www.dio.me/certificate/C0N0G1EB/share",
+      "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/html5.png",
+      "type": "other"
+    }
+  ],
+  "courses": [
+    {
+      "institution": "Instituição 1",
+      "description": "Descrição"
+    },
+    {
+      "institution": "Instituição 2",
+      "description": "Descrição"
+    },
+    {
+      "institution": "Instituição 3",
+      "description": "Descrição"
+    }
   ],
   "portfolio": [
     {
