@@ -3,11 +3,11 @@
   "photo": "https://avatars.githubusercontent.com/u/190417502?v=4",
   "job": "Desenvolvedor JR.",
   "location": "Rio de Janeiro, Brasil",
-  "phone": "+55 (21) 99999-9999",
-  "email": "ex@gmail.com",
+  "phone": "+55 (21) 99309-0728",
+  "email": "cavalcante.costa.alexandre@gmail.com",
   "linkedin": {
-    "username": "exemplo",
-    "url": "https://www.linkedin.com/in/exemplo"
+    "username": "Accost",
+    "url": "https://www.linkedin.com/in/Accost"
   },
   "skills": {
     "hardSkills": [
@@ -20,8 +20,8 @@
         "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/java.png"
       },
       {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/angular.png"
+        "name": "Github",
+        "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/github.png"
       },
       {
         "name": "React",
@@ -32,16 +32,16 @@
         "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/mongodb.png"
       },
       {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/postgresql.png"
+        "name": "Python",
+        "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/python.png"
       }
     ],
     "softSkills": [
-      "Soft skill 1",
-      "Soft skill 2",
-      "Soft skill 3",
-      "Soft skill 4",
-      "Soft skill 5"
+      "Pensamento Crítico",
+      "Liderança",
+      "Assistência",
+      "Organização",
+      "Trabalho em Equipe"
     ]
   },
   "languages": [
@@ -52,54 +52,62 @@
   ],
   "certifications": [
     {
-      "name": "CSS3 - Digital Innovation One",
+      "name": "Formação HTML5 Developer - Digital Innovation One",
       "url": "https://www.dio.me/certificate/C0N0G1EB/share",
-      "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/css3.png",
+      "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/certifications/html-developer.png",
       "type": "dio"
     },
     {
-      "name": "JavaScript - Digital Innovation One",
-      "url": "https://www.dio.me/certificate/C0N0G1EB/share",
-      "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/javascript.png",
+      "name": "Formação JavaScript Fundamentals - Digital Innovation One",
+      "url": "https://www.dio.me/certificate/8FUCBIY0/share",
+      "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/certifications/javascript-fundamentals.png",
       "type": "dio"
     },
     {
-      "name": "React - Digital Innovation One",
-      "url": "https://www.dio.me/certificate/C0N0G1EB/share",
-      "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/react.png",
+      "name": "Formação Node.js Fundamentals - Digital Innovation One",
+      "url": "https://www.dio.me/certificate/EBCPPXD5/share",
+      "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/certifications/node-js-fundamentals.png",
       "type": "dio"
     },
     {
-      "name": "HTML5 - Digital Innovation One",
-      "url": "https://www.dio.me/certificate/C0N0G1EB/share",
-      "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/html5.png",
+      "name": "Curso Java Completo - Udemy",
+      "url": "https://www.udemy.com/certificate/UC-235ffcb6-6313-4d27-a6f9-805f8288e48c/",
+      "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/certifications/java-udemy.png",
       "type": "other"
     },
     {
-      "name": "HTML5 - Digital Innovation One",
-      "url": "https://www.dio.me/certificate/C0N0G1EB/share",
-      "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/html5.png",
+      "name": "Python Essentials - Cisco Network Academy",
+      "url": "https://www.credly.com/badges/5bf0ee9d-bba2-4910-8a26-ca8d6a4a0bb5/linked_in_profile",
+      "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/certifications/python-essentials.png",
       "type": "other"
     },
     {
-      "name": "HTML5 - Digital Innovation One",
-      "url": "https://www.dio.me/certificate/C0N0G1EB/share",
-      "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/html5.png",
+      "name": "Learn-A-Thon 2023 - Cisco Network Academy",
+      "url": "https://www.credly.com/badges/2e4d34ab-ad0c-4cc8-932b-ffd2de07cd8e/linked_in_profile",
+      "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/certifications/Cisco-learn-a-thon.png",
+      "type": "other"
+    },
+    {
+      "name": "Cybersecurity Essentials - Cisco Network Academy",
+      "url": "https://www.credly.com/badges/c76632f9-1ce6-472e-99c6-ea3d334dc80d/linked_in_profile",
+      "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/certifications/Cisco-Cybersecurity-Essentials.png",
+      "type": "other"
+    },
+    {
+      "name": "CCNA: Switching, Routing & Wireless Essentials - Cisco Network Academy",
+      "url": "https://www.credly.com/badges/d772d3fe-4048-4edf-9196-66f8a3724d0d/linked_in_profile",
+      "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/certifications/CCNA.png",
       "type": "other"
     }
   ],
   "courses": [
     {
-      "institution": "Instituição 1",
-      "description": "Descrição"
+      "institution": "Universidade do Estado do Rio de Janeiro - UERJ",
+      "description": "C++, C, Python, Atualmente Cursando"
     },
     {
-      "institution": "Instituição 2",
-      "description": "Descrição"
-    },
-    {
-      "institution": "Instituição 3",
-      "description": "Descrição"
+      "institution": "Instituto FLAMA",
+      "description": "Ensino Médio Técnico de Computação, Finalizado em 2016"
     }
   ],
   "portfolio": [
@@ -121,19 +129,9 @@
   ],
   "professionalExperience": [
     {
-      "name": "Placeholder 1",
-      "period": "2022 - até o momento",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      "name": "Placeholder 2",
-      "period": "2021 - 2022",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      "name": "Placeholder 3",
-      "period": "2016 - 2021",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      "name": "Montagem e Manutenção - Informal",
+      "period": "2016 - 2020",
+      "description": "Serviços de montagem e manutenção, identificação de problemas, instalação de redes, suporte técnico remoto e presencial."
     }
   ]
 }
