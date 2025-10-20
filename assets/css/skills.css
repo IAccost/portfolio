@@ -13,8 +13,8 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    gap: 0.5rem;
     max-width: 70%;
+    gap: 0.5rem;
     margin: auto;
 
 }
@@ -22,7 +22,7 @@
 
 .skills .tools ul li {
     display: flex;
-    flex: 0 1 30%;
+    flex: 0 0 20%;
     flex-direction: row;
     justify-content: center;
     align-items: center;

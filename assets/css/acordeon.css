@@ -57,13 +57,18 @@
     padding: 0 2rem;
     transition: max-height 0.4s ease-out, opacity 0.3s ease-out, padding 0.4s ease-out;
 }
-.acordeon .content::-webkit-scrollbar {
-    display: none;
-}
 
 .acordeon.open .content{
     max-height: 500px;
     opacity: 1;
     padding: 1rem 2rem;
+    scrollbar-width: thin;
+    scrollbar-color: white transparent;
+    -ms-overflow-style: auto;
+    overflow: auto;
 
+}
+
+.acordeon .content::-webkit-scrollbar {
+    display: none;
 }
