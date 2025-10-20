@@ -74,5 +74,4 @@ function updateCourses(profileData) {
     updateExperience(profileData);
     updateCertifications(profileData);
     updateCourses(profileData);
-    console.log(profileData);
 })();

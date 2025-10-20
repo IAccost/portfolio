@@ -34,6 +34,10 @@
       {
         "name": "Python",
         "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/python.png"
+      },
+      {
+        "name": "C++",
+        "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/cpp.png"
       }
     ],
     "softSkills": [
