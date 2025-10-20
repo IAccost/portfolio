@@ -10,7 +10,7 @@ function updateProfileInfo(profileData) {
     location.textContent = profileData.location;
     const phone = document.getElementById('profile-phone');
     phone.textContent = profileData.phone;
-    phone.href = "tel:" + profileData.phone;
+    phone.href = "https://wa.me/" + profileData.phone.replace(/\D/g, '');
     const email = document.getElementById('profile-email');
     email.textContent = profileData.email;
     email.href = "mailto:" + profileData.email;
