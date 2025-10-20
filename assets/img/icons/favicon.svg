@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 128 128"
+     width="128" height="128"
+     role="img" aria-labelledby="title desc">
+  <title id="title">AC logo</title>
+  <desc id="desc">White initials AC centered inside a white circular outline on a transparent background</desc>
+
+  <!-- círculo (contorno branco, fundo transparente) -->
+  <circle cx="64" cy="64" r="56" fill="none" stroke="#FFFFFF" stroke-width="8"/>
+
+  <!-- letras AC (brancas, centralizadas) -->
+  <text x="64" y="64"
+        text-anchor="middle"
+        dominant-baseline="central"
+        font-family="Helvetica, Arial, sans-serif"
+        font-weight="700"
+        font-size="46"
+        fill="#FFFFFF">AC</text>
+</svg>
