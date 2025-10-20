@@ -51,7 +51,7 @@
   "languages": [
     "Português BR (Nativo)",
     "Inglês (Avançado)",
-    "Espanhol (Básica)",
+    "Espanhol (Básico)",
     "Japonês (N4)"
   ],
   "certifications": [
@@ -107,23 +107,23 @@
   "courses": [
     {
       "institution": "Universidade do Estado do Rio de Janeiro - UERJ",
-      "description": "C++, C, Python, Github, Atualmente Cursando"
+      "description": "Ciência da Computação | C++, C, Python, Banco de Dados, QA, Redes e Segurança da informação, Atualmente Cursando."
     },
     {
       "institution": "Dio | Digital Innovation One",
-      "description": "Node.js, JavaScript, HTML5"
+      "description": "Node.js, JavaScript, HTML5."
     },
     {
       "institution": "Udemy | Plataforma de Cursos Online",
-      "description": "Java"
+      "description": "Java, MongoDB, MySQL."
     },
     {
       "institution": "Cisco Networking Academy",
-      "description": "Segurança Cibernética, Redes de Computadores, Python"
+      "description": "Segurança Cibernética, Redes de Computadores, Python."
     },
     {
       "institution": "Instituto FLAMA",
-      "description": "Ensino Médio Técnico de Computação, Finalizado em 2016"
+      "description": "Ensino Médio Técnico de Computação, Finalizado em 2016."
     }
   ],
   "portfolio": [
