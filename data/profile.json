@@ -74,6 +74,12 @@
       "type": "dio"
     },
     {
+      "name": "Formação GitHub Certification - Digital Innovation One",
+      "url": "https://www.dio.me/certificate/YH84HBDT/share",
+      "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/certifications/github-certification.png",
+      "type": "dio"
+    },
+    {
       "name": "Curso Java Completo - Udemy",
       "url": "https://www.udemy.com/certificate/UC-235ffcb6-6313-4d27-a6f9-805f8288e48c/",
       "logo": "https://raw.githubusercontent.com/IAccost/portfolio/main/data/imgs/certifications/java-udemy.png",
